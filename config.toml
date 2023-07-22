@@ -1,6 +1,6 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'HugoConf 2023'
+title = 'সানারপাড় শিক্ষা কমপ্লেক্স সীরাত পাঠ প্রতিযোগিতা'
 
 [module]
 replacements = "local/component-library -> ../component-library"

@@ -1,31 +1,32 @@
 ---
-title: Home
+title: প্রচ্ছদ
 content_blocks:
   - _bookshop_name: sections/hero
     logo_image: /uploads/hugo-logo.svg
     post_logo: conf
     date:
       _bookshop_name: simple/event-date
-      date: 21st September 2023
-    content: The free, online conference for everything Hugo
+      date: 1st September 2023 & 15th September 2023
+    content: সানারপাড় রওশন আরা কলেজ এবং সানারপাড় শেখ মোরতোজা আলী হাইস্কুলের শিক্ষার্থীদের জন্য প্রথমবারের মতো সীরাত পাঠ প্রতিযোগিতা
     button:
       _bookshop_name: generic/button
-      label: Register for HugoConf 2023
+      label: অংশগ্রহণ করতে চাও? আসো রেজিস্ট্রেশন করে ফেলি!
       id:
       view_label_icon: true
       border_color: border-blue
       add_modal: true
-      open_modal: false
-      modal:
-        _bookshop_name: simple/modal
-        heading: Sign up for HugoConf updates
-        modal_content:
-          - _bookshop_name: simple/hubspot-form
-            region: na1
-            portalId: 22461532
-            formId: e199cbb1-2dcc-441f-8516-224f3ee65e8d
+      open_modal: true
+      url: example.com
+      # modal:
+        # _bookshop_name: simple/modal
+        # heading: Sign up for HugoConf updates
+        # modal_content:
+        #   - _bookshop_name: simple/hubspot-form
+        #     region: na1
+        #     portalId: 22461532
+        #     formId: e199cbb1-2dcc-441f-8516-224f3ee65e8d
   - _bookshop_name: sections/video-section
-    notice_message: Want to speak? Submit your proposal by **August 1st**.
+    notice_message: স্বেচ্ছাসেবক হও, ছড়িয়ে দাও রাসুলুল্লাহ সাল্লাল্লাহু আলাইহি ওয়া সাল্লামের জীবনীকে! 
     button:
       _bookshop_name: generic/button
       label: Submit your talk
@@ -42,9 +43,9 @@ content_blocks:
             region: na1
             portalId: 22461532
             formId: c1a95734-9550-4306-9e12-892c5112b894
-    video:
-      _bookshop_name: simple/video
-      url: https://youtube.com/embed/auctAccLbns
+    # video:
+    #   _bookshop_name: simple/video
+    #   url: https://youtube.com/embed/auctAccLbns
   - _bookshop_name: sections/hexagon-group
     hexagons:
       - _bookshop_name: simple/hexagon-block

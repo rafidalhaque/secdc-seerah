@@ -2,3 +2,4 @@
 /public/
 /resources/_gen/
 /assets/js/build.js
+.hugo_build.lock
