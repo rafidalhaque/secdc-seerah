@@ -2,12 +2,14 @@
 title: প্রচ্ছদ
 content_blocks:
   - _bookshop_name: sections/hero
-    logo_image: /uploads/hugo-logo.svg
-    post_logo: conf
+    logo_image: ''
+    post_logo: Contest
     date:
       _bookshop_name: simple/event-date
       date: 1st September 2023 & 15th September 2023
-    content: সানারপাড় রওশন আরা কলেজ এবং সানারপাড় শেখ মোরতোজা আলী হাইস্কুলের শিক্ষার্থীদের জন্য প্রথমবারের মতো সীরাত পাঠ প্রতিযোগিতা
+    content: >-
+      সানারপাড় রওশন আরা কলেজ এবং সানারপাড় শেখ মোরতোজা আলী হাইস্কুলের
+      শিক্ষার্থীদের জন্য প্রথমবারের মতো সীরাত পাঠ প্রতিযোগিতা
     button:
       _bookshop_name: generic/button
       label: অংশগ্রহণ করতে চাও? আসো রেজিস্ট্রেশন করে ফেলি!
@@ -16,36 +18,8 @@ content_blocks:
       border_color: border-blue
       add_modal: true
       open_modal: true
-      url: example.com
-      # modal:
-        # _bookshop_name: simple/modal
-        # heading: Sign up for HugoConf updates
-        # modal_content:
-        #   - _bookshop_name: simple/hubspot-form
-        #     region: na1
-        #     portalId: 22461532
-        #     formId: e199cbb1-2dcc-441f-8516-224f3ee65e8d
-  - _bookshop_name: sections/video-section
-    notice_message: স্বেচ্ছাসেবক হও, ছড়িয়ে দাও রাসুলুল্লাহ সাল্লাল্লাহু আলাইহি ওয়া সাল্লামের জীবনীকে! 
-    button:
-      _bookshop_name: generic/button
-      label: Submit your talk
-      id:
-      view_label_icon: false
-      border_color: border-white
-      add_modal: true
-      open_modal: false
-      modal:
-        _bookshop_name: simple/modal
-        heading: Register to speak at HugoConf
-        modal_content:
-          - _bookshop_name: simple/hubspot-form
-            region: na1
-            portalId: 22461532
-            formId: c1a95734-9550-4306-9e12-892c5112b894
-    # video:
-    #   _bookshop_name: simple/video
-    #   url: https://youtube.com/embed/auctAccLbns
+      url: >-
+        https://docs.google.com/forms/d/e/1FAIpQLSchZuBBAbE3Vo59n9eM79cZ2d4GVmKYTwE4JH35rkxMM0bWgQ/viewform?usp=sf_link
   - _bookshop_name: sections/hexagon-group
     hexagons:
       - _bookshop_name: simple/hexagon-block
@@ -66,4 +40,7 @@ content_blocks:
       - '#00A88A'
       - '#034AD8'
       - '#FCD804'
+  - _bookshop_name: simple/modal
+    heading:
+    modal_content: []
 ---
