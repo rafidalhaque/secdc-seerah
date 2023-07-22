@@ -1,24 +1,12 @@
-preText: 'Hosted by '
-logo_image: /uploads/coudcannon-logo.svg
-logo_alt: CloudCannon logo
+preText: আয়োজনে
+logo_image: /uploads/hosted-by.jpg
+logo_alt:
 links:
   - url: /
     label: Home
     icon:
     icon_alt:
-  - url: /hugoconf-2022/
-    label: 2022 Summary
-    icon: ''
-    icon_alt: ''
-  - url: /code-of-conduct
-    label: Code of conduct
-    icon:
+  - url: facebook.com/sradcdc/
+    label: Official Facebook Page of SRADC Dawah Circle
+    icon: facebook
     icon_alt:
-  - url: https://twitter.com/hugoconf
-    label: Twitter
-    icon: /uploads/twitter-logo.svg
-    icon_alt: Twitter
-  - url: https://fosstodon.org/@hugoconf
-    label: Mastodon
-    icon: 
-    icon_alt: 
