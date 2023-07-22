@@ -16,7 +16,7 @@ content_blocks:
       id:
       view_label_icon: true
       border_color: border-blue
-      add_modal: true
+      add_modal: false
       open_modal: true
       url: >-
         https://docs.google.com/forms/d/e/1FAIpQLSchZuBBAbE3Vo59n9eM79cZ2d4GVmKYTwE4JH35rkxMM0bWgQ/viewform?usp=sf_link
