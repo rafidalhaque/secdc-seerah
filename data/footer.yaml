@@ -10,3 +10,7 @@ links:
     label: Facebook Page
     icon: facebook
     icon_alt:
+  - url: https://www.facebook.com/groups/secdc
+    label: Facebook Group
+    icon: facebook
+    icon_alt:
